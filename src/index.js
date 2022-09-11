@@ -32,7 +32,7 @@ try {
 
 transactionRoutes(app);
 
-//set application listening on port 3000 of localhost
+//set application listening on port 3000
 app
   .listen({ port: 3000 })
   .then((address) => console.log(`server listening on ${address}`))
